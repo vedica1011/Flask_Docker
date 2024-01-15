@@ -32,11 +32,14 @@ Make sure you have the following installed:
 
 ```   
 model-deployment-flask-docker/
-│
-├── app.py               # Flask application for model deployment
-├── model.pkl            # Serialized machine learning model
-├── requirements.txt     # Python dependencies
-├── Dockerfile           # Docker configuration file
-├── README.md            # Project documentation
-└── .gitignore           # Git ignore file
+├── app.py                                 # Flask application for model deployment
+├── linear_regression_model.pkl             # Serialized machine learning model
+├── requirements.txt                       # Python dependencies
+├── Dockerfile                             # Docker configuration file
+├── README.md                              # Project documentation
+├── .gitignore                             # Git ignore file
+└── templates/
+    ├── index.html                         # HTML template for the main page
+    └── result.html                        # HTML template for displaying results
+
 
