@@ -30,7 +30,7 @@ Make sure you have the following installed:
 2. Install dependencies
      pip install -r requirements.txt
 
-   
+```   
 model-deployment-flask-docker/
 │
 ├── app.py               # Flask application for model deployment
